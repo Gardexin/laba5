@@ -1,5 +1,8 @@
 import re
 
+def useless_function():
+    print("useless text")
+
 fl = False
 while fl == False:
     user_input = input("Введите оклад: ")
